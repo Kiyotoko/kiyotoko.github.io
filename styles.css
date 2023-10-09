@@ -1,0 +1,20 @@
+body {
+    background-image: url(Banner.png);
+    background-color: #373f51;
+}
+
+main {
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+    padding: 5px;
+    background-color: #fff3;
+    font-family: "Segoe UI", Ubuntu, "Helvetica Neue", Sans-Serif;
+}
+
+h1 {
+    border-bottom: 8px solid #373f51;
+    color: #e07a5f;
+    font-size: 36px;
+}
