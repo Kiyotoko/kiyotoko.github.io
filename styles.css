@@ -20,7 +20,7 @@ h1 {
 }
 
 hr {
-    border: 2px solid;
+    border: 2px solid gray;
 }
 
 #content {
@@ -31,9 +31,11 @@ hr {
 }
 
 #badges img {
-    margin-left: 4px;
+    margin: 5px;
+    scale: 1.05;
 }
 
 #stats img {
-    margin-bottom: 20px;
+    margin: 10px;
+    scale: 1.;
 }
