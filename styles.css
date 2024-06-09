@@ -1,5 +1,5 @@
 body {
-    background-image: url(pixelicious.png);
+    background-image: url(pixelicious.webp);
     background-color: #647d34;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,10 +24,9 @@ hr {
 }
 
 #content {
-    margin-top: -25px;
     margin-left: 20%;
     margin-right: 20%;
-    height: calc(100% + 25px);
+    height: 100%;
     background-color: #373f5180;
 }
 
