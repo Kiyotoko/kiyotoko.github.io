@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <div class="flex">
+  {{ range where .Paginator.Pages.ByDate.Reverse "Params.draft" "eq" false }}
+    <details open>
+      <summary>
+        <b>{{ .Title }}</b>
+      </summary>
+
+      <p>{{ .Description }}</p>
+
+      <div class="center"><p>Read more <a href="{{ .Permalink }}">here</a>.</p><div>
+    </details>
+  {{ end }}
+  </div>
+{{ end }}

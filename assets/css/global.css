@@ -1,0 +1,118 @@
+:root {
+  --accent-color: rgb(74, 74, 234);
+  --black: rgb(32, 32, 32)
+}
+
+body {
+  margin: 1cm 15% 1cm 15%;
+  font-family: monospace;
+  font-size: 14pt;
+}
+
+nav > div {
+  display: grid;
+  row-gap: 12pt;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav > div > a {
+  text-align: center;
+  color: var(--accent-color);
+}
+
+footer, h1 {
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 1px solid;
+}
+
+a {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+p {
+  padding: 1px;
+}
+
+img {
+  width: calc(min(512pt, 80%));
+}
+
+figure {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+figure > img {
+  display: block;
+  margin-bottom: 10px;
+  max-width: 347px;
+}
+
+details {
+  border: 2px var(--black) solid;
+
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+details > summary {
+  background-color: var(--black);
+  text-align: center;
+  font-size: 15pt;
+  color: white;
+  padding: 4px;
+
+  &::marker {
+    content: "";
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar {
+  display: flex;
+  gap: 15px;
+
+  & > img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 347px;
+    border-radius: 15pt;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: rgb(115, 115, 190);
+  }
+
+  body {
+    background-color: var(--black);
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {  
+    margin: 0.5cm 5% 0.5cm 5%;
+    font-size: 11pt;
+  }
+
+  details > summary {
+    font-size: 12pt;
+  }
+}

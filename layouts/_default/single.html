@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1 class="text-center">{{ .Title }}</h1>
+  
+  <div class="center">
+    <div class="sidebar">
+    {{ range .Params.Sidebar }}
+      <img src="{{ . }}"></img>
+    {{ end }}
+    </div>
+  </div>
+
+  {{ .Content }}
+{{ end }}
