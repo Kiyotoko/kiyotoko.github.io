@@ -21,7 +21,7 @@ My plan was simple: I don't really have a plan, so let's just try things out!
 
 I first set up Nix, Hugo and Pandoc. I needed Nix for managing the (hopefully few) dependencies. Hugo was required for generating the html pages based on layouts and markdown content. Personally, I prefer the pandoc extensions for compiling the Markdown files. Pandoc for example supports footnotes and callouts.
 
-```sh
+```shell
 nix-shell -p hugo pandoc
 ```
 

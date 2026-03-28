@@ -13,6 +13,9 @@ pygmentsuseclasses = true
 
 [markup]
   [markup.highlight]
+    lineNos = true
+    anchorLineNos = true
+    lineNumbersInTable = false
     noClasses = false
     style = 'autumn'
 

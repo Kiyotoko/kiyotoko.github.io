@@ -84,13 +84,6 @@ details {
   overflow: hidden;
 }
 
-pre {
-  padding: 8px;
-  margin: 8px;
-  border-radius: 15pt;
-  border: 1px gray solid;
-}
-
 details > summary {
   background-color: var(--black);
   text-align: center;
@@ -125,6 +118,13 @@ details > summary {
     max-width: 347px;
     border-radius: 15pt;
   }
+}
+
+.highlight {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 15pt;
+  border: 1px gray solid;
 }
 
 @media (prefers-color-scheme: dark) {
