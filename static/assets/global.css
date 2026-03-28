@@ -11,6 +11,7 @@ body {
 
 nav > div {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 12pt;
 }
@@ -19,6 +20,7 @@ nav > div > a {
   text-transform: lowercase;
   font-size: 16pt;
   text-decoration-style: dotted;
+  text-align: center;
 }
 
 nav > div > a:hover {
@@ -37,8 +39,8 @@ footer, h1 {
 
 h1 {
   font-size: 3rem;
-  text-transform: uppercase;
   color: #ff5722;
+  text-transform: uppercase;
   text-shadow: -4px 4px #ef3550,
                -8px 8px #f48fb1,
               -12px 12px #7e57c2,
@@ -136,6 +138,15 @@ details > summary {
     background-color: var(--black);
     color: white;
   }
+
+  details {
+    border: 2px white solid;
+  }
+  
+  details > summary {
+    background-color: white;
+    color: var(--black);
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -144,7 +155,16 @@ details > summary {
     font-size: 11pt;
   }
 
+  nav > div {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr)
+  }
+
   details > summary {
     font-size: 12pt;
+  }
+
+  ul, ol {
+    padding-left: 20pt;
   }
 }
