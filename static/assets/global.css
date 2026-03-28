@@ -40,6 +40,7 @@ footer, h1 {
 h1 {
   font-size: 3rem;
   color: #ff5722;
+  padding-left: 32px;
   text-transform: uppercase;
   text-shadow: -4px 4px #ef3550,
                -8px 8px #f48fb1,
@@ -146,6 +147,10 @@ details > summary {
   details > summary {
     background-color: white;
     color: var(--black);
+  }
+
+  .bg, .chroma {
+    background-color: var(--black);
   }
 }
 
