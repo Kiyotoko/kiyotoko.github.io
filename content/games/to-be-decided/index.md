@@ -9,16 +9,14 @@ sidebar = [
 date = 2025-10-01
 +++
 
-You can play the game [here](./play/).
-
-*Please note: The game is best played in full screen mode.*
-
 Lead Evil Inc. to world domination in the global Teewurst market and destroy all communist kangaroos along the way!
 Manipulate parliament and the stock market to satisfy your desires! Use your botnet to influence the media! Embrace cars, screw consumers, and establish your own dictatorship!
 
 ## Playing
 
-You can play this game online on Itch.io or on Github here.
+*Please note: The game is best played in full screen mode on a laptop or pc.*
+
+You can play the game [here](./play/).
 
 ## Controls
 
@@ -42,9 +40,13 @@ You win the game by destroying all critics of Teewurst through parliament, estab
 
 ## Credits
 
-- Game by Leo, Janek & Karl
-- Font by VileR (https://int10h.org/)
-- Sound by 101soundboards (https://www.101soundboards.com/sounds/27014532-old-pc-turn-on-boot-turn-off-turn-on-old-personal-turn-off-boot-at-magedu)
+- game by Leo, Janek & Karl
+- font by VileR (https://int10h.org/)
+- sound by 101soundboards (https://www.101soundboards.com/sounds/27014532-old-pc-turn-on-boot-turn-off-turn-on-old-personal-turn-off-boot-at-magedu)
+
+## Source Code
+
+https://github.com/Geldwaschbaer/to-be-decided
 
 ## Disclaimer
 

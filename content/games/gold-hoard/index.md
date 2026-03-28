@@ -4,9 +4,11 @@ description = 'Gold Hoard is a puzzle game, where you must escape the dungeon an
 date = 2024
 +++
 
-You can play the game [here](./play/).
-
 Gold Hoard is a puzzle game, where you must escape the dungeon and at the same time collect as much gold as possible!
+
+## Playing
+
+You can play the game [here](./play/).
 
 ## Controls
 
@@ -17,6 +19,11 @@ Gold Hoard is a puzzle game, where you must escape the dungeon and at the same t
 - Y or C Pickup Item/ Open Chest
 - X or V Place Item
 
-## Play Online
+## Credits
 
-https://kiyotoko.github.io/gold-hoard/
+- art and coding by Leo
+- coding by Karl
+
+## Source Code
+
+https://github.com/Geldwaschbaer/gold-hoard

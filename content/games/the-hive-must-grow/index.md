@@ -39,12 +39,12 @@ This list is an overview of all buildings that you can build in the game and wha
   - Left mouse click: Place building.
   - Right mouse click: Destroy building (or tree).
 
+## Credits
+
+- art & coding by Leo
+- art by Ella
+- music, sfx and coding by Karl
+
 ## Source Code
 
 https://github.com/Geldwaschbaer/the-hive-must-grow
-
-## Credits
-
-- Leo (@Haminopulus): Art & Programming
-- Ella (@Ellie Ravenhurricane): Art
-- Karl (@Kiyotoko): Programming, Music & SFX
