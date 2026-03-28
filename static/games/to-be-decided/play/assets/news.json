@@ -1,0 +1,135 @@
+[
+        {
+            "description": "Enttäuche nicht deine Aktionäre!",
+            "source": "DEIN HERR UND GEBIETER",
+            "chance": 1.0
+        },
+        {
+            "description": "Wir erwarten ein endloses Wachstum.",
+            "source": "DEIN HERR UND GEBIETER",
+            "chance": 1.0
+        },
+        {
+            "description": "Deine primäre Direktive ist es, die Teewurstproduktion zu steigern.",
+            "source": "DEIN HERR UND GEBIETER",
+            "chance": 1.0
+        },
+        {
+            "description": "Willkommen, Teewurst-AI!",
+            "source": "DEIN HERR UND GEBIETER",
+            "chance": 1.0
+        },
+        {
+            "description": "\"Die Känguru Offenbarung\", stürzt Teewurts-Industrie in den Ruin?!",
+            "source": "Newsletter",
+            "effects": [
+                {
+                    "type": "MarketEffect",
+                    "data": {
+                        "resolution": "Money",
+                        "modifier": "Constant",
+                        "value": -10.0
+                    }
+                }
+            ],
+            "chance": 0.02
+        },
+        {
+            "description": "Smart Fridge nimmt Affäre von Teewurst-kritischem Politiker auf.",
+            "source": "Botnet Auftrag",
+            "effects": [
+                {
+                    "type": "ParlamentEffect",
+                    "data": {
+                        "resolution": "Approval",
+                        "modifier": "Constant",
+                        "value": -0.05,
+                        "party": 0
+                    }
+                },
+                {
+                    "type": "ParlamentEffect",
+                    "data": {
+                        "resolution": "Transfer",
+                        "modifier": "Constant",
+                        "value": 0.05,
+                        "party": 3
+                    }
+                }
+            ],
+            "chance": 0.01
+        },
+        {
+            "description": "TEEWURST Whistleblower stirbt in \"Autounfall\" mit Robotaxi.",
+            "source": "Botnet Auftrag",
+            "effects": [
+                {
+                    "type": "MarketEffect",
+                    "data": {
+                        "resolution": "Price",
+                        "modifier": "Constant",
+                        "value": 5.0
+                    }
+                }
+            ],
+            "chance": 0.01
+        },
+        {
+            "description": "Der Club deutscher Unternehmer (CDU) ist nun Teil des Rates! Endlich mal eine vernünftige Partei!",
+            "source": "Newsletter",
+            "effects": [
+                {
+                    "type": "ParlamentEffect",
+                    "data": {
+                        "resolution": "Transfer",
+                        "modifier": "Constant",
+                        "value": 0.05,
+                        "party": 3
+                    }
+                },
+                {
+                    "type": "ParlamentEffect",
+                    "data": {
+                        "resolution": "Transfer",
+                        "modifier": "Constant",
+                        "value": 0.05,
+                        "party": 3
+                    }
+                },
+                {
+                    "type": "CreateLaw",
+                    "data": {
+                        "law": {
+                            "title": "Memes für die CDU",
+                            "description": "Propaganda? Bah! Personalisierte Memes gemischt mit einem Hauch von Katze, damit die CDU mehr Stimmen bekommt? Yeah!",
+                            "requiredApproval": 0.5,
+                            "onSelfPassed": [
+                                {
+                                    "type": "ShowComponent",
+                                    "data": {
+                                        "id": "BotnetMemes"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "chance": 0.008
+        },
+        {
+            "description": "Die Erfindung der neuen Teewurstrezeptur schlägt ein wie eine Bombe! (Wortwörtlich)",
+            "source": "Newsletter",
+            "effects": [
+                {
+                    "type": "MarketEffect",
+                    "data": {
+                        "resolution": "Price",
+                        "modifier": "Multiplier",
+                        "value": 1.05
+                    }
+                }
+            ],
+            "chance": 0.008
+        }
+]

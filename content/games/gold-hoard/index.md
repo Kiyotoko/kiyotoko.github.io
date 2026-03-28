@@ -4,6 +4,8 @@ description = 'Gold Hoard is a puzzle game, where you must escape the dungeon an
 date = 2024
 +++
 
+You can play the game [here](./play/).
+
 Gold Hoard is a puzzle game, where you must escape the dungeon and at the same time collect as much gold as possible!
 
 ## Controls

@@ -1,8 +1,15 @@
 +++
 title = 'To Be Decided'
 description = 'Lead Evil Inc. to world domination in the global Teewurst market and destroy all communist kangaroos along the way! Manipulate parliament and the stock market to satisfy your desires! Use your botnet to influence the media! Embrace cars, screw consumers, and establish your own dictatorship!'
+sidebar = [
+  './start-screen.png',
+  './voting.png',
+  './parlament.png'
+]
 date = 2025-10-01
 +++
+
+You can play the game [here](./play/).
 
 *Please note: The game is best played in full screen mode.*
 
