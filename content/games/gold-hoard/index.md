@@ -2,6 +2,11 @@
 title = 'Gold Hoard'
 description = 'Gold Hoard is a puzzle game, where you must escape the dungeon and at the same time collect as much gold as possible!'
 date = 2024
+tags = [
+  'gamejam',
+  'pico-8',
+  'lua'
+]
 +++
 
 Gold Hoard is a puzzle game, where you must escape the dungeon and at the same time collect as much gold as possible!

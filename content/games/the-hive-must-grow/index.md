@@ -7,6 +7,11 @@ sidebar = [
   './path-finding.png'
 ]
 date = 2025-06-01
+tags = [
+  'gamejam',
+  'pico-8',
+  'lua'
+]
 +++
 
 A really wonderful cozy game! Dive into the word of bees and help them build an entire empire. You can send off worker bees, who collect resources to grow your city. Of course the queen can't be missed, she's keeping the city running if you're not around ;) But careful what you feed the queen.

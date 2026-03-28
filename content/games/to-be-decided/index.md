@@ -7,6 +7,11 @@ sidebar = [
   './parlament.png'
 ]
 date = 2025-10-01
+tags = [
+  'gamejam',
+  'macroquad',
+  'rust'
+]
 +++
 
 Lead Evil Inc. to world domination in the global Teewurst market and destroy all communist kangaroos along the way!

@@ -9,7 +9,7 @@ pygmentsuseclasses = true
   publishResources = true
   render = 'always'
   [build.buildStats]
-    disableTags = false
+    disableTags = true
 
 [markup]
   [markup.highlight]

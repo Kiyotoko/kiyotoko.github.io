@@ -125,6 +125,19 @@ details > summary {
   }
 }
 
+.tags {
+  margin: 8px;
+}
+
+.tags > span {
+  margin: 2px;
+  padding: 6px;
+  font-size: 11pt;
+  border-radius: 15pt;
+  border: 1px rgb(7, 152, 7) solid;
+  color: rgb(7, 152, 7);
+}
+
 .highlight {
   padding: 8px;
   margin: 8px;
