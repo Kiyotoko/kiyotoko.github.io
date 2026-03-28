@@ -2,6 +2,8 @@ baseURL = 'https://kiyotoko.github.io/'
 languageCode = 'en-us'
 title = 'Kiyotoko'
 
+pygmentsuseclasses = true
+
 [build]
   list = 'always'
   publishResources = true
@@ -10,7 +12,9 @@ title = 'Kiyotoko'
     disableTags = false
 
 [markup]
-  defaultMarkdownHandler = "pandoc"
+  [markup.highlight]
+    noClasses = false
+    style = 'autumn'
 
 [security]
   [security.exec]
