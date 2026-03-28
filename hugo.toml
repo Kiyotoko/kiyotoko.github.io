@@ -8,3 +8,10 @@ title = 'Kiyotoko'
   render = 'always'
   [build.buildStats]
     disableTags = false
+
+[markup]
+  defaultMarkdownHandler = "pandoc"
+
+[security]
+  [security.exec]
+    allow = [ '^pandoc$' ]
