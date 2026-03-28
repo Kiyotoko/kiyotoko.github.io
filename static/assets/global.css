@@ -10,18 +10,43 @@ body {
 }
 
 nav > div {
-  display: grid;
-  row-gap: 12pt;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  gap: 12pt;
 }
 
 nav > div > a {
-  text-align: center;
-  color: var(--accent-color);
+  text-transform: lowercase;
+  font-size: 16pt;
+  text-decoration-style: dotted;
+}
+
+nav > div > a:hover {
+  font-weight: bolder;
+  text-decoration-style: wavy;
+}
+
+footer {
+  padding: 6pt;
+  font-size: 13pt;
 }
 
 footer, h1 {
   text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #ff5722;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+              -12px 12px #7e57c2,
+              -16px 16px #2196f3,
+              -20px 20px #26c6da,
+              -24px 24px #43a047,
+              -28px 28px #eeff41,
+              -32px 32px #f9a825;
 }
 
 h2 {
