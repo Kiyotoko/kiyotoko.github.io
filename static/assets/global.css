@@ -84,6 +84,12 @@ details {
   overflow: hidden;
 }
 
+pre {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 15pt;
+}
+
 details > summary {
   background-color: var(--black);
   text-align: center;
