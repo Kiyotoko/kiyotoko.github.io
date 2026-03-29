@@ -131,7 +131,7 @@ Showing them at the top of every blog post and game was a bit harder. Inside `la
 
 ```html
 {{ if isset .Params `tags` }}
-<div class="center">
+<div class="div-center">
   <div class="tags">
   {{ range .Params.Tags }}
     <span>{{ . }}</span>
