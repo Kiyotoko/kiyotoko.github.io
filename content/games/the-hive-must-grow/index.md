@@ -16,6 +16,10 @@ tags = [
 
 A really wonderful cozy game! Dive into the word of bees and help them build an entire empire. You can send off worker bees, who collect resources to grow your city. Of course the queen can't be missed, she's keeping the city running if you're not around ;) But careful what you feed the queen.
 
+## Playing
+
+You can play the game [here](./play/).
+
 ## Buildings
 
 This list is an overview of all buildings that you can build in the game and what effect they have. Whenever you place an item, you get 10 XP, collect 2000 XP and you get a pat on the back from the dev team. Please note that you need to pay different amounts of  resources to build each  building and that you can only place a building if have enough space. (means you can not place a building if there is already another building or a tree).
