@@ -2,7 +2,7 @@
   <h1>{{ .Title }}</h1>
   
   {{ if isset .Params `tags` }}
-  <div class="center">
+  <div class="div-center">
     <div class="tags">
     {{ range .Params.Tags }}
       <span>{{ . }}</span>
@@ -12,7 +12,7 @@
   {{ end }}
   
   {{ if isset .Params `sidebar` }}
-  <div class="center">
+  <div class="div-center">
     <div class="sidebar">
     {{ range .Params.Sidebar }}
       <img src="{{ . }}"></img>

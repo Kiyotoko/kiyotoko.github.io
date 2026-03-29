@@ -99,7 +99,7 @@ details > summary {
   }
 }
 
-.center {
+.div-center {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -107,7 +107,11 @@ details > summary {
   width: 100%;
 }
 
-.flex {
+.text-center {
+  text-align: center;
+}
+
+.pages {
   display: flex;
   flex-direction: column;
   gap: 10px;
