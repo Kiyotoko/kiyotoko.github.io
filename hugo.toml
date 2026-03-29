@@ -4,6 +4,8 @@ title = 'Kiyotoko'
 
 pygmentsuseclasses = true
 
+disableKinds = ["taxonomy", "term"]
+
 [build]
   list = 'always'
   publishResources = true
