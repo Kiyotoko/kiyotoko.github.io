@@ -1,6 +1,8 @@
-<figure class="div-center">
-  <img src="{{ .Destination | safeURL }}"
-    {{- with .PlainText }} alt="{{ . }}"{{ end -}}
-    {{- with .Title }} title="{{ . }}"{{ end -}}
-  >
-</figure>
+<div cass="div-center">
+  <figure>
+    <img src="{{ .Destination | safeURL }}"
+      {{- with .PlainText }} alt="{{ . }}"{{ end -}}
+      {{- with .Title }} title="{{ . }}"{{ end -}}
+    >
+  </figure>
+</div>
