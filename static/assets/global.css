@@ -121,6 +121,8 @@ details > summary {
 
 .sidebar {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 15px;
   margin: 10px;
 
@@ -200,5 +202,9 @@ details > summary {
 
   ul, ol {
     padding-left: 20pt;
+  }
+
+  .sidebar > img {
+    max-width: calc(50% - 10px);
   }
 }
