@@ -1,6 +1,11 @@
 +++
 title = 'Gold Hoard'
 description = 'Gold Hoard is a puzzle game, where you must escape the dungeon and at the same time collect as much gold as possible!'
+sidebar = [
+  './first-room.png',
+  './chest.png',
+  './plate.png'
+]
 date = 2024
 tags = [
   'gamejam',
