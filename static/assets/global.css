@@ -161,6 +161,20 @@ details > summary {
   height: 31px;
 }
 
+.web-prev, .web-ring, .web-next {
+  padding: 8px;
+  background-color:rgb(176, 52, 198);
+  color: white;
+}
+
+.web-prev {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.web-next {
+  border-radius: 0px 20px 20px 0px ;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: rgb(115, 115, 190);
