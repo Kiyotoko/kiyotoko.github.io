@@ -34,7 +34,7 @@ Who is Drosten? Why did he covered the _>Insert simple topic already covered in 
 
 ![](./meme-2025-10-23.png)
 
-In between, there was a module - I think it was journalism - held in the open information room. Three questions are on my mind:
+In between, there was a module - I think it was journalism - held in the open informatics room. Three questions are on my mind:
 
 1) Why was this module held in the information room in the first place?
 2) Why wasn’t it held there anymore halfway through the semester?
@@ -106,7 +106,7 @@ Welcome to the first and last pun of the semester. Today we’re featuring: Couc
 
 ![](./meme-2026-01-27+4.png)
 
-That's a pretty nead version of the "silence, brand" meme. I love it!
+That's a pretty neat version of the "silence, brand" meme. I love it!
 
 {{< rating score=8 >}}
 
@@ -114,7 +114,7 @@ That's a pretty nead version of the "silence, brand" meme. I love it!
 
 ![](./meme-2026-01-27+5.png)
 
-Did I missed something? Grabowsky rarely had interesting footnotes.
+Did I miss something? Grabowsky rarely had interesting footnotes.
 
 {{< rating score=4 >}}
 
