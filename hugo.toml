@@ -20,6 +20,9 @@ disableKinds = ["taxonomy", "term"]
     lineNumbersInTable = false
     noClasses = false
     style = 'autumn'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [security]
   [security.exec]
