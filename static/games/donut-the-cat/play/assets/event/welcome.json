@@ -1,0 +1,170 @@
+{
+  "type": "OpenDialog",
+  "data": {
+    "title": "THE DUNGEON CALLS",
+    "texture": "assets/dialog/staircase.png",
+    "dialogs": [
+      {
+        "description": "It's time to go on an epic quest to slay the EVIL DRAGON that lurks in the depths of this DUNGEON\n",
+        "options": [
+          {
+            "description": "OK",
+            "events": [],
+            "next": 1
+          },
+          {
+            "description": "I Already know everything",
+            "events": [],
+            "next": 3
+          }
+        ]
+      },
+      {
+        "description": "Unfortunately the 'brave' KNIGHT that was assigned to go on this quest tripped over a CAT and fell off a cliff...\nSo now Donut, the totally UNRELATED CAT, has to take up the cumbersome chore that the INCOMPETENT KNIGHT left behind.\n",
+        "options": [
+          {
+            "description": "OK",
+            "events": [],
+            "next": 3
+          },
+          {
+            "description": "Did Donut kill a guy?!",
+            "events": [],
+            "next": 2
+          }
+        ]
+      },
+      {
+        "description": "NO WAY!! She would never do such a thing!\nDonut is a very WELL MANNERED feline! Shame on You for assuming such a horrible thing!!!\n",
+        "options": [
+          {
+            "description": "Sure...",
+            "events": [],
+            "next": 3
+          }
+        ]
+      },
+      {
+        "description": "Choose your CLASS. Yes even cats can have a hobby, it's nothing special DONT WORRY ABOUT IT :):)\n",
+        "options": [
+          {
+            "description": "Wizard",
+            "events": [
+              {
+                "type": "UpgradeStat",
+                "data": ["Con", 3]
+              },
+              {
+                "type": "UpgradeStat",
+                "data": ["Int", 3]
+              },
+              {
+                "type": "LearnAttack",
+                "data": {
+                  "description": "Fireball (Applies Burn to Enemy)",
+                  "base_damage": 3,
+                  "required_mana": 1,
+                  "scales_with": "Int",
+                  "applied_buffs": [{ "type": "Burn", "data": 3 }]
+                }
+              },
+              {
+                "type": "LearnAttack",
+                "data": {
+                  "description": "Meteor",
+                  "base_damage": 6,
+                  "base_heal": 0,
+                  "required_mana": 2,
+                  "scales_with": "Int"
+                }
+              }
+            ],
+            "next": 4
+          },
+          {
+            "description": "Knight",
+            "events": [
+              {
+                "type": "UpgradeStat",
+                "data": ["Con", 4]
+              },
+              {
+                "type": "UpgradeStat",
+                "data": ["Str", 3]
+              },
+              {
+                "type": "LearnAttack",
+                "data": {
+                  "description": "Fast Slash (Applies Berserk to Self)",
+                  "base_damage": 3,
+                  "base_heal": 0,
+                  "required_mana": 0,
+                  "scales_with": "Str",
+                  "receive_buffs": [{ "type": "Berserk" }]
+                }
+              },
+              {
+                "type": "LearnAttack",
+                "data": {
+                  "description": "Holy Strike (Applies Block to Self)",
+                  "base_damage": 8,
+                  "base_heal": 0,
+                  "required_mana": 3,
+                  "scales_with": "Str",
+                  "receive_buffs": [{ "type": "Block", "data": 8 }]
+                }
+              }
+            ],
+            "next": 4
+          },
+          {
+            "description": "Cleric",
+            "events": [
+              { "type": "UpgradeStat", "data": ["Con", 3] },
+              { "type": "UpgradeStat", "data": ["Dex", 1] },
+              { "type": "UpgradeStat", "data": ["Int", 2] },
+              {
+                "type": "LearnAttack",
+                "data": {
+                  "description": "Cast Holy Flame (Applies Burn to Enemy)",
+                  "base_damage": 3,
+                  "base_heal": 1,
+                  "required_mana": 1,
+                  "scales_with": "Dex",
+                  "applied_buffs": [{ "type": "Burn", "data": 2 }]
+                }
+              },
+              {
+                "type": "LearnAttack",
+                "data": {
+                  "description": "Self-Heal (Applies Weak to Enemy and Block to self",
+                  "base_damage": 0,
+                  "base_heal": 5,
+                  "required_mana": 1,
+                  "scales_with": "Int",
+                  "applied_buffs": [{ "type": "Weak" }],
+                  "receive_buffs": [{ "type": "Block", "data": 5 }]
+                }
+              }
+            ],
+            "next": 4
+          }
+        ]
+      },
+      {
+        "description": "Great! you are such a talented little CAT, Donut!\n",
+        "options": [
+          {
+            "description": "miaow :3 (LET'S KILL SOMETHING!)",
+            "events": [
+              {
+                "type": "ReturnToMap"
+              }
+            ],
+            "next": 4
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "type": "EnterCombat",
+  "data": {
+    "entity": {
+      "name": "Ant Colony",
+      "dexterity": 1,
+      "intelligence": 1,
+      "strength": 2,
+      "constitution": 3,
+      "attacks": [
+        {
+          "description": "The Ant Colony bite you for 3 damage! How could they do this?",
+          "base_damage": 2,
+          "base_heal": 0,
+          "required_mana": 0,
+          "scales_with": "Dex"
+        }
+      ],
+      "texture": "assets/entity/enemy2.png"
+    },
+    "on_death": [
+      {
+        "type": "OpenDialog",
+        "data": {
+          "title": "Choose your Loot!",
+          "texture": "assets/dialog/battle_won.png",
+          "dialogs": [
+            {
+              "description": "What are you still missing to become the most fearsome Donut that has ever existed?",
+              "options": [
+                {
+                  "description": "Become STRONGER!",
+                  "events": [
+                    {
+                      "type": "UpgradeStat",
+                      "data": ["Str", 1]
+                    }
+                  ],
+                  "next": 1
+                },
+                {
+                  "description": "Become FASTER!",
+                  "events": [
+                    {
+                      "type": "UpgradeStat",
+                      "data": ["Dex", 1]
+                    }
+                  ],
+                  "next": 1
+                },
+                {
+                  "description": "Experience HEALTH",
+                  "events": [
+                    {
+                      "type": "UpgradeStat",
+                      "data": ["Con", 1]
+                    }
+                  ],
+                  "next": 1
+                },
+                {
+                  "description": "Gain a BRAIN CELL",
+                  "events": [
+                    {
+                      "type": "UpgradeStat",
+                      "data": ["Int", 1]
+                    }
+                  ],
+                  "next": 1
+                }
+              ]
+            },
+            {
+              "description": "Wow you're so much better now! You won't feel it at all, but trust me the old you really fell off.",
+              "options": [
+                {
+                  "description": "OK :3",
+                  "events": [
+                    {
+                      "type": "ReturnToMap"
+                    }
+                  ],
+                  "next": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
