@@ -70,9 +70,9 @@ p {
   margin: 10px;
 }
 
-img {
-  max-width: calc(min(768px, 80%));
-  max-height: 512px;
+img, video {
+  max-width: calc(min(512px, 80%));
+  max-height: 386px;
   border-radius: 15px;
   object-fit: contain;
 }
