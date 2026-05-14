@@ -1,6 +1,6 @@
 +++
 title = '''Dopsball Report: WiSe 2025/2026 Part 1'''
-description = 'The great meme rewind for the subreddit r\dopsball is here!'
+description = 'The great meme rewind for the subreddit r/dopsball is here!'
 date = 2026-05-14
 tags = [
   'leipzig',
