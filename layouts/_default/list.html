@@ -6,7 +6,7 @@
   {{ range where .Paginator.Pages.ByDate.Reverse "Params.draft" "eq" false }}
     <details open>
       <summary>
-        <b>{{ .Title }}</b>
+        <a href="{{ .Permalink }}"><b>{{ .Title }}</b></a>
       </summary>
 
       <p>{{ .Description }}</p>

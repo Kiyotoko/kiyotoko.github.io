@@ -95,7 +95,6 @@ details {
 
 details > summary {
   background-color: var(--primary);
-  color: var(--background);
   text-align: center;
   font-size: 15pt;
   padding: 4px;
@@ -103,6 +102,11 @@ details > summary {
   &::marker {
     content: "";
   }
+}
+
+details > summary > a {
+  color: var(--background);
+  text-decoration: none;
 }
 
 .div-center {
