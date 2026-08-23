@@ -1,0 +1,37 @@
+{
+  "type": "EnterCombat",
+  "data": {
+    "entity": {
+      "name": "EVIL DRAGON >:3",
+      "dexterity": 3,
+      "intelligence": 6,
+      "strength": 5,
+      "constitution": 8,
+      "attacks": [
+        {
+          "description": "Fire Breath",
+          "base_damage": 5,
+          "base_heal": 0,
+          "required_mana": 1,
+          "scales_with": "Int"
+        }
+      ],
+      "texture": "assets/entity/dragon.png"
+    },
+    "on_death": [
+      {
+        "type": "OpenDialog",
+        "data": {
+          "title": "Horrible Donut MURDER",
+          "texture": "assets/dialog/dragon.png",
+          "dialogs": [
+            {
+              "description": "Donut absolutely SLAUGHTERED that poor animal.\nHOLY SHIT can someone call the POLICE this CAT neeeds to be ARRESTED!!!\nWHY would Donut just do something so BRUTAL?!\nHe looks so CUTE, there is NO WAY she could have done THIS! :exploding_head: :astonished:\n\n(wow you beat the game, you can end this misery with 'Q' or 'ESC')",
+              "options": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
