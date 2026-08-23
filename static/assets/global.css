@@ -1,18 +1,27 @@
+@font-face {
+  font-family: 'SpaceMono';
+  src: url('font/SpaceMono-Regular.eot');
+  src: url('font/SpaceMono-Regular.woff') format('woff'),
+       url('font/SpaceMono-Regular.ttf') format('truetype');
+}
+
 :root {
   --accent-color: rgb(74, 74, 234);
-  --black: rgb(32, 32, 32)
+  --primary: rgb(32, 32, 32);
+  --background: #e6ddde;
 }
 
 body {
-  margin: 1cm 22% 1cm 22%;
-  font-family: monospace;
+  font-family: "SpaceMono", "Courier", monospace;
   font-size: 14pt;
+  color: #443235;
+  background-color: var(--background);
+  margin: 1cm 30% 1cm 30%;
 }
 
 nav > div {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: grid;
+  grid-template: repeat(1, 1fr) / repeat(4, 1fr);
   gap: 12pt;
 }
 
@@ -21,6 +30,8 @@ nav > div > a {
   font-size: 16pt;
   text-decoration-style: dotted;
   text-align: center;
+  
+  border: 2px var(--accent-color) dotted;
 }
 
 nav > div > a:hover {
@@ -39,22 +50,15 @@ footer, h1 {
 
 h1 {
   font-size: 3rem;
-  color: #ff5722;
-  padding-left: 32px;
-  text-transform: uppercase;
-  text-shadow: -4px 4px #ef3550,
-               -8px 8px #f48fb1,
-              -12px 12px #7e57c2,
-              -16px 16px #2196f3,
-              -20px 20px #26c6da,
-              -24px 24px #43a047,
-              -28px 28px #eeff41,
-              -32px 32px #f9a825;
+  font-weight: 900;
+  
+  border-bottom: 4px dotted;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
   font-size: 2rem;
-  border-bottom: 1px solid;
+  font-weight: 700;
 }
 
 h3 {
@@ -83,17 +87,17 @@ figure > img {
 }
 
 details {
-  border: 2px var(--black) solid;
+  border: 2px var(--primary) solid;
 
   border-radius: 15px;
   overflow: hidden;
 }
 
 details > summary {
-  background-color: var(--black);
+  background-color: var(--primary);
+  color: var(--background);
   text-align: center;
   font-size: 15pt;
-  color: white;
   padding: 4px;
 
   &::marker {
@@ -120,15 +124,13 @@ details > summary {
 }
 
 .sidebar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin: 10px;
+  display: grid;
+  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+  gap: 2px;
+  margin: 5px;
 
   & > img {
     display: block;
-    max-width: 320px;
     object-fit: cover;
   }
 }
@@ -163,46 +165,75 @@ details > summary {
 
 .web-ring {
   padding: 8px;
-  background-color:rgb(55, 14, 167);
-  border-radius: 15px;
+  border: 2px var(--accent-color) dotted;
+  border-top-left-radius: 15px;
+}
 
-  > a {
-    color: white;
-  }
+.web-ring-random {
+  border: 2px var(--accent-color) dotted;
+  padding: 2px;
+  font-size: 10pt;
+  transform: translate(0px, -18px) rotate(30deg);
+  position: absolute;
+  background: var(--background);
+}
+
+.rainbow {
+  color: #ff5722;
+  padding-left: 32px;
+  text-transform: uppercase;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+              -12px 12px #7e57c2,
+              -16px 16px #2196f3,
+              -20px 20px #26c6da,
+              -24px 24px #43a047,
+              -28px 28px #eeff41,
+              -32px 32px #f9a825;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: rgb(115, 115, 190);
+    --background: rgb(32, 32, 32);
+    --primary: white;
   }
 
   body {
-    background-color: var(--black);
-    color: white;
-  }
-
-  details {
-    border: 2px white solid;
-  }
-  
-  details > summary {
-    background-color: white;
-    color: var(--black);
+    background-color: var(--background);
+    color: var(--primary);
   }
 
   .bg, .chroma {
-    background-color: var(--black);
+    background-color: var(--background);
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1080px) {
+  body {
+    margin: 1cm 20% 1cm 20%;
+  }
+}
+
+@media screen and (max-width: 520px) {
   body {  
     margin: 0.5cm 5% 0.5cm 5%;
-    font-size: 11pt;
+    font-size: 12pt;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
   }
 
   nav > div {
-    display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr)
   }
 
@@ -214,7 +245,7 @@ details > summary {
     padding-left: 20pt;
   }
 
-  .sidebar > img {
-    max-width: calc(50% - 10px);
+  .sidebar {
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr)
   }
 }
