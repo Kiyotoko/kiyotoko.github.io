@@ -1,66 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Blogs on Kiyotoko</title>
-		<link>http://localhost:1313/blog/</link>
-		<description>Recent content in Blogs on Kiyotoko</description>
-		<generator>Hugo</generator>
-		<language>en-us</language>
-		
-		
-		
-		
-			<lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>CSD Riesa</title>
-				<link>http://localhost:1313/blog/csd-riesa/</link>
-				<pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/csd-riesa/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Travel Blog: Poland and Czechia</title>
-				<link>http://localhost:1313/blog/travel-blog-poland-czechia/</link>
-				<pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/travel-blog-poland-czechia/</guid>
-				<description>&lt;h2 id=&#34;leipzig&#34;&gt;Leipzig&lt;/h2&gt;&#xA;&lt;p&gt;We started our tour in Leipzig, Germany. We planned a round trip&#xA;trough Wrocław, Kraków and Praha. We mostly wanted to travel via Flix&#xA;Bus because it was cheep and stayed in hospitals for the same&#xA;reason.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;leipzig2wroclaw.png&#34; /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;wrocław&#34;&gt;Wrocław&lt;/h2&gt;&#xA;&lt;p&gt;Hiking National Museum Dwarf Hunting Fascination for Zabkas&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;wroclaw2krakow.png&#34; /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;kraków&#34;&gt;Kraków&lt;/h2&gt;&#xA;&lt;p&gt;Lot of Churches and Basilicas National Museum Hiking&#xA;(https://www.alltrails.com/trail/poland/lesser-poland-malopolskie/dolina-kobylanska-i-dolina-bedkowska)&#xA;Salt Mine (https://www.wieliczka-saltmine.com/) Auschwitz&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;krakow2praha.png&#34; /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;praha&#34;&gt;Praha&lt;/h2&gt;&#xA;&lt;p&gt;Museum of Art Underground Station City Tour&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Dopsball Report: WiSe 2025/2026 Part 2</title>
-				<link>http://localhost:1313/blog/dopsball-report-wise25-part2/</link>
-				<pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/dopsball-report-wise25-part2/</guid>
-				<description>&lt;h2 id=&#34;february&#34;&gt;February&lt;/h2&gt;&#xA;&lt;p&gt;&lt;div cass=&#34;div-center&#34;&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;./meme-2026-02-16&amp;#43;1.png&#34;&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The ways of elevators are inscrutable. Some people swear that certain elevators are faster than all the others. Others, on the other hand, actively avoid elevators because they always seem to take the slowest possible route. But everyone agrees that, for the most part, elevators are simply broken.&lt;/p&gt;&#xA;&lt;div class=&#34;div-center&#34;&gt;&#xA;  &lt;svg version=&#34;1.1&#34;&#xA;    viewBox=&#34;-2 -2 70 24&#34;&#xA;    width=&#34;150&#34;&#xA;    height=&#34;75&#34;&#xA;    fill=&#34;crimson&#34;&#xA;    stroke=&#34;black&#34;&gt;&#xA;&#xA;    &lt;path d=&#34;M 8 6 C 18 0, 48 0, 58 6 L 56 16 C 48 10, 18 10, 10 16&#34; /&gt;&#xA;    &lt;path d=&#34;M 8 6 L 10 8 12 17 2 20 4 16 0 12 10 8&#34; /&gt;&#xA;    &lt;path d=&#34;M 58 6 L 56 8 54 17 64 20 62 16 66 12 56 8&#34; /&gt;&#xA;    &lt;text x=&#34;33&#34; y=&#34;10&#34;&#xA;          font-size=&#34;8&#34;&#xA;          font-family=&#34;Arial&#34;&#xA;          text-anchor=&#34;middle&#34;&gt;&#xA;      8 / 10&#xA;    &lt;/text&gt;&#xA;  &lt;/svg&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;div cass=&#34;div-center&#34;&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;./meme-2026-02-16&amp;#43;2.png&#34;&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Dopsball Report: WiSe 2025/2026 Part 1</title>
-				<link>http://localhost:1313/blog/dopsball-report-wise25-part1/</link>
-				<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/dopsball-report-wise25-part1/</guid>
-				<description>&lt;p&gt;Dopsball is a reddit community that posts memes over the computer science department of my university. Over the years, especially in the last semester, some of the greates memes were created here. This is me commenting and reviewing every single meme that was posted there during the winter semester 2025/26. Because there were so many memes posted by fellow students, I decided to split this meme compilation into two parts. The first part that you are currently reading covers all posts from 01/10/2025 to 14/02/2026, were the second covers all from 15/02/2026 to 01/04/2026.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>My take on some popular group games</title>
-				<link>http://localhost:1313/blog/popular-games/</link>
-				<pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/popular-games/</guid>
-				<description>&lt;p&gt;Every played any popular group game? Ever realized, how few decisions you can make that actually matter? Or that it&lt;/p&gt;&#xA;&lt;h2 id=&#34;uno&#34;&gt;UNO&lt;/h2&gt;&#xA;&lt;p&gt;Does this game need an introduction? I think not. Personally, I don&amp;rsquo;t like Uno, because it rules are so simpel and the very few decisions you have often don&amp;rsquo;t effect if you win or not. But if you are looking for a really simple cardgame that you can take everywhere, that you can play with everyone no matter their age or willigness to concentrate on a game, than this the game for you. Additionally, UNO becomes really funny if you and your playgroup starts to create your own rules. Alternativly, you can also use a modified version like &amp;ldquo;Uno No Mercy&amp;rdquo;.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Brownie Cookies 🍪</title>
-				<link>http://localhost:1313/blog/brownie-cookies/</link>
-				<pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/brownie-cookies/</guid>
-				<description>&lt;p&gt;I&amp;rsquo;m leaving this recipe for everyone who loves cookies as much as I do. If you&amp;rsquo;re reading this, I hope you try it and enjoy it!&lt;/p&gt;&#xA;&lt;p&gt;All credits for the recipe goes to &lt;a href=&#34;https://www.tasteofhome.com/recipes/jumbo-brownie-cookies/&#34;&gt;https://www.tasteofhome.com/recipes/jumbo-brownie-cookies/&lt;/a&gt;! Check out their amazing cookies!&lt;/p&gt;&#xA;&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;2-2/3 cups 60% cacao bittersweet chocolate baking chips&lt;/li&gt;&#xA;&lt;li&gt;1/2 cup unsalted butter, cubed&lt;/li&gt;&#xA;&lt;li&gt;4 large eggs, room temperature&lt;/li&gt;&#xA;&lt;li&gt;1-1/2 cups sugar&lt;/li&gt;&#xA;&lt;li&gt;4 teaspoons vanilla extract&lt;/li&gt;&#xA;&lt;li&gt;2 teaspoons instant espresso powder, optional&lt;/li&gt;&#xA;&lt;li&gt;2/3 cup all-purpose flour&lt;/li&gt;&#xA;&lt;li&gt;1/2 teaspoon baking powder&lt;/li&gt;&#xA;&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;&#xA;&lt;li&gt;1 package (11-1/2 ounces) semisweet chocolate chunks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;directions&#34;&gt;Directions&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Preheat oven to 350°. In a large saucepan, melt chocolate chips and&#xA;butter over low heat, stirring until smooth. Remove from heat; cool&#xA;until mixture is warm.&lt;/li&gt;&#xA;&lt;li&gt;In a small bowl, whisk the eggs, sugar, vanilla and, if desired,&#xA;espresso powder until blended. Whisk into chocolate mixture. In another&#xA;bowl, mix the flour, baking powder and salt; add to chocolate mixture,&#xA;mixing well. Fold in chocolate chunks; let stand until mixture thickens&#xA;slightly, about 10 minutes.&lt;/li&gt;&#xA;&lt;li&gt;Drop by 1/4 cupfuls 3 in. apart onto parchment-lined baking sheets.&#xA;Bake until set, 12-14 minutes. Cool on pans 1-2 minutes. Remove to wire&#xA;racks to cool.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-			</item>
-			<item>
-				<title>How I created my own page</title>
-				<link>http://localhost:1313/blog/my-own-page/</link>
-				<pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blog/my-own-page/</guid>
-				<description>&lt;p&gt;Some days ago, I was constantly asked if I had any website. Every time I replied with no, it filled me with sadness. Therefore I created this website to stop the haters! But how should I desing my very own page? Which content should I put into it? What do I want, or sometimes more important, don&amp;rsquo;t want?&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-plan&#34;&gt;My Plan&lt;/h2&gt;&#xA;&lt;p&gt;My plan was simple: I don&amp;rsquo;t really have a plan, so let&amp;rsquo;s just try things out!&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Kiyotoko</title><link>https://karlz.codeberg.page/blog/</link><description>Recent content in Blogs on Kiyotoko</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://karlz.codeberg.page/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>CSD Riesa</title><link>https://karlz.codeberg.page/blog/csd-riesa/</link><pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/csd-riesa/</guid><description/></item><item><title>Travel Blog: Poland and Czechia</title><link>https://karlz.codeberg.page/blog/travel-blog-poland-czechia/</link><pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/travel-blog-poland-czechia/</guid><description>&lt;h2 id="leipzig"&gt;Leipzig&lt;/h2&gt;
+&lt;p&gt;We started our tour in Leipzig, Germany. We planned a round trip
+trough Wrocław, Kraków and Praha. We mostly wanted to travel via Flix
+Bus because it was cheep and stayed in hospitals for the same
+reason.&lt;/p&gt;
+&lt;p&gt;&lt;img src="leipzig2wroclaw.png" /&gt;&lt;/p&gt;
+&lt;h2 id="wrocław"&gt;Wrocław&lt;/h2&gt;
+&lt;p&gt;Hiking National Museum Dwarf Hunting Fascination for Zabkas&lt;/p&gt;
+&lt;p&gt;&lt;img src="wroclaw2krakow.png" /&gt;&lt;/p&gt;
+&lt;h2 id="kraków"&gt;Kraków&lt;/h2&gt;
+&lt;p&gt;Lot of Churches and Basilicas National Museum Hiking
+(https://www.alltrails.com/trail/poland/lesser-poland-malopolskie/dolina-kobylanska-i-dolina-bedkowska)
+Salt Mine (https://www.wieliczka-saltmine.com/) Auschwitz&lt;/p&gt;
+&lt;p&gt;&lt;img src="krakow2praha.png" /&gt;&lt;/p&gt;
+&lt;h2 id="praha"&gt;Praha&lt;/h2&gt;
+&lt;p&gt;Museum of Art Underground Station City Tour&lt;/p&gt;</description></item><item><title>Dopsball Report: WiSe 2025/2026 Part 2</title><link>https://karlz.codeberg.page/blog/dopsball-report-wise25-part2/</link><pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/dopsball-report-wise25-part2/</guid><description>&lt;h2 id="february"&gt;February&lt;/h2&gt;
+&lt;p&gt;&lt;div cass="div-center"&gt;
+ &lt;figure&gt;
+ &lt;img src="./meme-2026-02-16&amp;#43;1.png"&gt;
+ &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The ways of elevators are inscrutable. Some people swear that certain elevators are faster than all the others. Others, on the other hand, actively avoid elevators because they always seem to take the slowest possible route. But everyone agrees that, for the most part, elevators are simply broken.&lt;/p&gt;
+&lt;div class="div-center"&gt;
+ &lt;svg version="1.1"
+ viewBox="-2 -2 70 24"
+ width="150"
+ height="75"
+ fill="crimson"
+ stroke="black"&gt;
+
+ &lt;path d="M 8 6 C 18 0, 48 0, 58 6 L 56 16 C 48 10, 18 10, 10 16" /&gt;
+ &lt;path d="M 8 6 L 10 8 12 17 2 20 4 16 0 12 10 8" /&gt;
+ &lt;path d="M 58 6 L 56 8 54 17 64 20 62 16 66 12 56 8" /&gt;
+ &lt;text x="33" y="10"
+ font-size="8"
+ font-family="Arial"
+ text-anchor="middle"&gt;
+ 8 / 10
+ &lt;/text&gt;
+ &lt;/svg&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;&lt;div cass="div-center"&gt;
+ &lt;figure&gt;
+ &lt;img src="./meme-2026-02-16&amp;#43;2.png"&gt;
+ &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Dopsball Report: WiSe 2025/2026 Part 1</title><link>https://karlz.codeberg.page/blog/dopsball-report-wise25-part1/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/dopsball-report-wise25-part1/</guid><description>&lt;p&gt;Dopsball is a reddit community that posts memes over the computer science department of my university. Over the years, especially in the last semester, some of the greates memes were created here. This is me commenting and reviewing every single meme that was posted there during the winter semester 2025/26. Because there were so many memes posted by fellow students, I decided to split this meme compilation into two parts. The first part that you are currently reading covers all posts from 01/10/2025 to 14/02/2026, were the second covers all from 15/02/2026 to 01/04/2026.&lt;/p&gt;</description></item><item><title>My take on some popular group games</title><link>https://karlz.codeberg.page/blog/popular-games/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/popular-games/</guid><description>&lt;p&gt;Every played any popular group game? Ever realized, how few decisions you can make that actually matter? Or that it&lt;/p&gt;
+&lt;h2 id="uno"&gt;UNO&lt;/h2&gt;
+&lt;p&gt;Does this game need an introduction? I think not. Personally, I don&amp;rsquo;t like Uno, because it rules are so simpel and the very few decisions you have often don&amp;rsquo;t effect if you win or not. But if you are looking for a really simple cardgame that you can take everywhere, that you can play with everyone no matter their age or willigness to concentrate on a game, than this the game for you. Additionally, UNO becomes really funny if you and your playgroup starts to create your own rules. Alternativly, you can also use a modified version like &amp;ldquo;Uno No Mercy&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Brownie Cookies 🍪</title><link>https://karlz.codeberg.page/blog/brownie-cookies/</link><pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/brownie-cookies/</guid><description>&lt;p&gt;I&amp;rsquo;m leaving this recipe for everyone who loves cookies as much as I do. If you&amp;rsquo;re reading this, I hope you try it and enjoy it!&lt;/p&gt;
+&lt;p&gt;All credits for the recipe goes to &lt;a href="https://www.tasteofhome.com/recipes/jumbo-brownie-cookies/"&gt;https://www.tasteofhome.com/recipes/jumbo-brownie-cookies/&lt;/a&gt;! Check out their amazing cookies!&lt;/p&gt;
+&lt;h2 id="ingredients"&gt;Ingredients&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2-2/3 cups 60% cacao bittersweet chocolate baking chips&lt;/li&gt;
+&lt;li&gt;1/2 cup unsalted butter, cubed&lt;/li&gt;
+&lt;li&gt;4 large eggs, room temperature&lt;/li&gt;
+&lt;li&gt;1-1/2 cups sugar&lt;/li&gt;
+&lt;li&gt;4 teaspoons vanilla extract&lt;/li&gt;
+&lt;li&gt;2 teaspoons instant espresso powder, optional&lt;/li&gt;
+&lt;li&gt;2/3 cup all-purpose flour&lt;/li&gt;
+&lt;li&gt;1/2 teaspoon baking powder&lt;/li&gt;
+&lt;li&gt;1/4 teaspoon salt&lt;/li&gt;
+&lt;li&gt;1 package (11-1/2 ounces) semisweet chocolate chunks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="directions"&gt;Directions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Preheat oven to 350°. In a large saucepan, melt chocolate chips and
+butter over low heat, stirring until smooth. Remove from heat; cool
+until mixture is warm.&lt;/li&gt;
+&lt;li&gt;In a small bowl, whisk the eggs, sugar, vanilla and, if desired,
+espresso powder until blended. Whisk into chocolate mixture. In another
+bowl, mix the flour, baking powder and salt; add to chocolate mixture,
+mixing well. Fold in chocolate chunks; let stand until mixture thickens
+slightly, about 10 minutes.&lt;/li&gt;
+&lt;li&gt;Drop by 1/4 cupfuls 3 in. apart onto parchment-lined baking sheets.
+Bake until set, 12-14 minutes. Cool on pans 1-2 minutes. Remove to wire
+racks to cool.&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>How I created my own page</title><link>https://karlz.codeberg.page/blog/my-own-page/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/my-own-page/</guid><description>&lt;p&gt;Some days ago, I was constantly asked if I had any website. Every time I replied with no, it filled me with sadness. Therefore I created this website to stop the haters! But how should I desing my very own page? Which content should I put into it? What do I want, or sometimes more important, don&amp;rsquo;t want?&lt;/p&gt;
+&lt;h2 id="my-plan"&gt;My Plan&lt;/h2&gt;
+&lt;p&gt;My plan was simple: I don&amp;rsquo;t really have a plan, so let&amp;rsquo;s just try things out!&lt;/p&gt;</description></item></channel></rss>
