@@ -1,0 +1,31 @@
+#!/bin/sh
+
+if ! command -v hugo >/dev/null 2>&1
+then
+  echo "hugo could not be found"
+  exit 1
+fi
+
+if [ ! -e public ]
+then
+  git clone https://codeberg.org/karlz/pages.git public
+fi
+
+cd public
+git stash push
+git switch pages
+git pull -r
+cd ..
+
+hugo build \
+  --minify \
+  --enableGitInfo \
+  --logLevel debug \
+  --cleanDestinationDir \
+  --baseURL "https://karlz.codeberg.page/"
+
+cd public
+git add ./*
+git commit -m "page build $(date)"
+git push origin pages
+cd ..

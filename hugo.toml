@@ -1,5 +1,5 @@
 baseURL = 'https://karlz.codeberg.page/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Karl'
 
 pygmentsuseclasses = true
@@ -26,4 +26,4 @@ disableKinds = ["taxonomy", "term"]
 
 [security]
   [security.exec]
-    allow = [ '^pandoc$' ]
+    allow = [ '^pandoc$', '^git$' ]
