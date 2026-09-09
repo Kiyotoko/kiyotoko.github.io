@@ -1,25 +1,27 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  
-  {{ if isset .Params `tags` }}
-  <div class="div-center">
-    <div class="tags">
-    {{ range .Params.Tags }}
-      <span>{{ . }}</span>
-    {{ end }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    
+    {{ if isset .Params `tags` }}
+    <div class="div-center">
+      <div class="tags">
+      {{ range .Params.Tags }}
+        <span>{{ . }}</span>
+      {{ end }}
+      </div>
     </div>
-  </div>
-  {{ end }}
-  
-  {{ if isset .Params `sidebar` }}
-  <div class="div-center">
-    <div class="sidebar">
-    {{ range .Params.Sidebar }}
-      <img src="{{ . }}"></img>
     {{ end }}
+    
+    {{ if isset .Params `sidebar` }}
+    <div class="div-center">
+      <div class="sidebar">
+      {{ range .Params.Sidebar }}
+        <img src="{{ . }}"></img>
+      {{ end }}
+      </div>
     </div>
-  </div>
-  {{end}}
+    {{end}}
 
-  {{ .Content }}
+    {{ .Content }}
+  </article>
 {{ end }}
