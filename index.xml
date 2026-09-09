@@ -1,12 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kiyotoko</title><link>https://karlz.codeberg.page/</link><description>Recent content on Kiyotoko</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://karlz.codeberg.page/index.xml" rel="self" type="application/rss+xml"/><item><title>CSD Riesa</title><link>https://karlz.codeberg.page/blog/csd-riesa/</link><pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/csd-riesa/</guid><description>&lt;p&gt;&lt;div cass="div-center"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Karl</title><link>https://karlz.codeberg.page/</link><description>Recent content on Karl</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 09 Sep 2026 14:02:23 +0800</lastBuildDate><atom:link href="https://karlz.codeberg.page/index.xml" rel="self" type="application/rss+xml"/><item><title>My first day in taiwan</title><link>https://karlz.codeberg.page/blog/my-first-day-in-taiwan/</link><pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/my-first-day-in-taiwan/</guid><description>&lt;h2 id="arrival"&gt;Arrival&lt;/h2&gt;
+&lt;p&gt;My journey to Taipei started where I got 2 hours earlier to make sure
+that I really was able to catch my flight. And oh boy, that was kinda a
+mistake? As it turned out, the previous flight didn’t even started yet,
+because there was a thunderstorm in Frankfurt. After nearly two hours,
+the airplane finally arrived. A lot of other passengers already missed
+there flight. An announcement told me that we would land 8 PM in
+Frankfurt and after looking again at my boarding pass, it told that 8:05
+PM boarding for my flight to Singapore would start. Thankfully, another
+announcement told me that there was a bus waiting for the Singapore
+flight that would transfer all passengers directly to the airplane.&lt;/p&gt;</description></item><item><title>CSD Riesa</title><link>https://karlz.codeberg.page/blog/csd-riesa/</link><pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/csd-riesa/</guid><description>&lt;p&gt;&lt;div cass="div-center"&gt;
  &lt;figure&gt;
  &lt;img src="./poster.png"&gt;
  &lt;/figure&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Last saturday (22.08.2026) I was in Riesa together with a friend for the CSD (Christopher Street Day). The CSD is a european celebration and demonstration of LGBTQ+ rights. Riesa is a larger city between Leipzig and Dresden. This location is especially important for the CSB, because of the rise of the far right in East Germany and especially Saxony.&lt;/p&gt;
-&lt;p&gt;We started around 12 AM in Leipzig and took the train RE50 to Dresden. After around 45 minutes, we arrived in Riesa. Because the demonstration only started at 2 PM, we started to walk a bit around the city center.
-The demonstration itself started at the main train station, then continued to the city marketplace trought the historical city center and then ended again at the train station. The weather was okay-ish: it was a bit cold and you couldn&amp;rsquo;t see the sun, but at the very least it wasn&amp;rsquo;t raining or above 30°.&lt;/p&gt;</description></item><item><title>Travel Blog: Poland and Czechia</title><link>https://karlz.codeberg.page/blog/travel-blog-poland-czechia/</link><pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/travel-blog-poland-czechia/</guid><description>&lt;h2 id="leipzig"&gt;Leipzig&lt;/h2&gt;
+&lt;p&gt;Last saturday (22.08.2026) I was in Riesa together with a friend for the CSD (Christopher Street Day). Originally I planned to get there with two other friends, but one got sick and the other got a visit by his mother. The CSD is a european celebration and demonstration of LGBTQ+ rights. Riesa is a larger city between Leipzig and Dresden. This location is especially important for the CSB, because of the rise of the far right in East Germany and especially Saxony.&lt;/p&gt;</description></item><item><title>Travel Blog: Poland and Czechia</title><link>https://karlz.codeberg.page/blog/travel-blog-poland-czechia/</link><pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/blog/travel-blog-poland-czechia/</guid><description>&lt;h2 id="leipzig"&gt;Leipzig&lt;/h2&gt;
 &lt;p&gt;We started our tour in Leipzig, Germany. We planned a round trip
 trough Wrocław, Kraków and Praha. We mostly wanted to travel via Flix
 Bus because it was cheep and stayed in hospitals for the same
@@ -116,32 +124,18 @@ Manipulate parliament and the stock market to satisfy your desires! Use your bot
 &lt;li&gt;coding by Karl&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="source-code"&gt;Source Code&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://github.com/Geldwaschbaer/gold-hoard"&gt;https://github.com/Geldwaschbaer/gold-hoard&lt;/a&gt;&lt;/p&gt;</description></item><item><title>About Me</title><link>https://karlz.codeberg.page/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/about/</guid><description>&lt;p&gt;Who am I? First, the obvious ones: I am a human. I am alive. I am not
-dead (yet)&lt;a href="#fn1" class="footnote-ref" id="fnref1"
-role="doc-noteref"&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. I hate LinkedIn and AI tech bros&lt;a
-href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. I live on a tiny planet called
-Earth, which circles a G-type main-sequence star&lt;a href="#fn3"
-class="footnote-ref" id="fnref3" role="doc-noteref"&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;,
-inside a galaxy that we humans call the “Milky Way”. I now have a
-webpage. This very page you are on right now is my webpage.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Geldwaschbaer/gold-hoard"&gt;https://github.com/Geldwaschbaer/gold-hoard&lt;/a&gt;&lt;/p&gt;</description></item><item><title>About Me</title><link>https://karlz.codeberg.page/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://karlz.codeberg.page/about/</guid><description>&lt;p&gt;Hey, I am Karl! I am currently studying Computer Science at the
+University of Leipzig.&lt;/p&gt;
 &lt;h2 id="things-that-i-love"&gt;Things that I love:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;I love both cats and dogs, but I think that raccoons are the cutest
 ones.&lt;/li&gt;
 &lt;li&gt;I love cookies and cooking! Do you have cookies? Do you no longer
-need them or can spare some? Then I am happy to &lt;del&gt;help you&lt;/del&gt; eat
-everything you have.&lt;/li&gt;
+need them or can spare some? Then I am happy to &lt;del&gt;eat everything you
+have&lt;/del&gt; help you.&lt;/li&gt;
 &lt;li&gt;I love writing my own programming language. I have a finished a test
 run with &lt;a href="https://github.com/Kiyotoko/nyx"&gt;Nyx&lt;/a&gt; and currently
 write the new compiled language &lt;a
 href="https://github.com/tau-lang/tau"&gt;Tau&lt;/a&gt; together with a &lt;a
 href="https://lovirent.eu/"&gt;friend&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="highly-motivational-speeches-for-your-linkedin"&gt;Highly
-Motivational Speeches for your LinkedIn&lt;/h2&gt;
-&lt;p&gt;In the end, I wanted to bring you the joy of reading sentences so
-devoid of meaning that they perfectly fit into your LinkedIn profile&lt;a
-href="#fn4" class="footnote-ref" id="fnref4"
-role="doc-noteref"&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. All sentences are free of
-charge:&lt;/p&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description></item></channel></rss>
