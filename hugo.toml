@@ -1,6 +1,6 @@
-baseURL = 'https://kiyotoko.github.io/'
+baseURL = 'https://karlz.codeberg.page/'
 languageCode = 'en-us'
-title = 'Kiyotoko'
+title = 'Karl'
 
 pygmentsuseclasses = true
 
