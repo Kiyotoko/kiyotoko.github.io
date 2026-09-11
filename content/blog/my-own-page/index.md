@@ -9,18 +9,18 @@ tags = [
 ]
 +++
 
-Some days ago, I was constantly asked if I had any website. Every time I replied with no, it filled me with sadness. Therefore I created this website to stop the haters! But how should I desing my very own page? Which content should I put into it? What do I want, or sometimes more important, don't want?
+Some days ago, I was constantly asked if I had any website. Every time I replied with no, it filled me with sadness. Therefore I created this website to stop the haters! But how should I design my very own page? Which content should I put into it? What do I want, or sometimes more important, don't want?
 
 ## My Plan
 
 My plan was simple: I don't really have a plan, so let's just try things out!
 
-- I wanted a minimal design wich focuses on readability. I thought for a second to make every text red/green, so that my dad couldn't read it, only then to realize that he will not find this page in the first place.
+- I wanted a minimal design which focuses on readability. As you will see below, I first added an rainbow effect to the headings, but later decided that they made it to hard to read and therefore removed them again.
 - No JS/TS/Tailwind CSS. Generally nothing that contains NPM, adds a dependency or any fancy web framework. I still ended up using hugo for statically generating the html files.
 - No WASM or Rust code for basic web elements. *(Yes, I am talking to [you](https://lovirent.eu/)!)*
 - I wanted to host all games that I created with others during the Questpresso gamejams.
 - I wanted to create a blog. My current plan for the blog is that I don't have a plan! I will start posting the most random things about pretty much everything.
-- Maybe I create a page about all my finished and upcoming projects, that are somehow relevant. I am still figuring out which project is relevant enough to deserve its own page and which project is just a sandbox-try-it-out-and-fail-fast-idea
+- Maybe I create a page about all my finished and upcoming projects, that are somehow relevant. I am still figuring out which project is relevant enough to deserve its own page and which project is just a sandbox-try-it-out-and-fail-fast-idea.
 
 ## Getting Started
 
@@ -70,7 +70,7 @@ h1 {
 }
 ```
 
-## Adding Collapsables without JS
+## Adding collapsible's without JS
 
 I wanted to create box items that the user could easily collapse without using CSS. I used `<details>` by removing the marker, set the background of the summary and border to black. I rounded up the corners of the details and added a padding to the summary.
 
@@ -113,7 +113,7 @@ details {
 }
 ```
 
-## Managing Tags
+## Managing tags
 
 In hugo, you can add tags to markdown files in yaml, toml and more. I wanted to use toml, as I had some bad experience with yamls `on` and `off` and therefore used toml. Addings tags to a file is pretty easy. Just add the following to your markdown file:
 
@@ -156,4 +156,44 @@ If any tags were set, it would create a new div with tags and create a new span 
     1px rgb(7, 152, 7) solid;
   color: rgb(7, 152, 7);
 }
+```
+
+## Adding a deploy script
+
+This is a little update after I fist deployed the page to GitHub. GitHub has a lot of workflows and runners that you can use for free. But because of the ai "features" and massive downtimes that I experienced with GitHub, I decided to migrate to Codeberg. However, Codeberg uses Forgejo Workflows and you must host them yourself. Therefore it was easier to just write a little deploy script and run it myself locally every time I wanted to deploy the website. Here it is:
+
+```sh
+#!/bin/sh
+
+if ! command -v hugo >/dev/null 2>&1
+then
+  echo "hugo could not be found"
+  exit 1
+fi
+
+if [ ! -e public ]
+then
+  git clone \
+    https://codeberg.org/karlz/pages.git \
+    public
+fi
+
+cd public
+git stash push
+git switch pages
+git pull -r
+cd ..
+
+hugo build \
+  --minify \
+  --enableGitInfo \
+  --logLevel debug \
+  --cleanDestinationDir \
+  --baseURL "https://karlz.codeberg.page/"
+
+cd public
+git add ./*
+git commit -m "page build $(date)"
+git push origin pages
+cd ..
 ```
