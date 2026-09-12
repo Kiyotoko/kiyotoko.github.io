@@ -1,9 +1,10 @@
 +++
 title = 'Travel Blog: Wrocław'
 description = 'I traveled to Poland and Czechia over ten days together with a friend.'
-date = 2026-08-22
+date = 2026-08-20
 tags = [
   'travel blog',
+  'poland & czechia'
 ]
 +++
 
